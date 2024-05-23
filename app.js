@@ -17,17 +17,15 @@ let suggar='1 cucharada de azucar,';
 let dryYeast= '7 cucharadas de levaduras,';
 let salt= '1 cucharada de sal';
 
-let mass='Para hacer la masa, debemos mezclar: '
+let mass='1. Para hacer la masa, debemos mezclar: '
 
 
 const mixingMass=(str)=>{
     let readyMass;
     readyMass=(mass+  eggs+ ' ' + wheatFlour+ ' ' + ' '  + water + ' '+ suggar+ ' '+ dryYeast+ ' ' + salt);
-    return readyMass
+    return readyMass;
 }
-
-console.log(mixingMass());
-
+console.log(mixingMass())
    /*
    Segundo paso, 
 
@@ -39,11 +37,31 @@ Tomates, usa de 1 a 2 tomates medianos.
 let sauce= '1/2 tazas de salsa de tomate';
 let cheese= '1/2 taza de queso'
 let tomatoes= '2 tomates medianos';
-let onTheMass='En la masa, agrega los siguientes ingredientes: '
+let onTheMass='2. En la masa, agrega los siguientes ingredientes: '
 
 const addInTheMass=()=>{
     let verting;
     verting= (onTheMass+ ' ' + ' ' + sauce + ' ' + cheese+ ' '+ tomatoes)
+    return verting;
 }
 
 console.log(addInTheMass());
+
+/* horno 
+
+temperatura: 482°F;
+tiempo: 15 minutos;
+
+*/
+
+let time= '15 minutos';
+let temp= 'a una temperatura de 482°F';
+let oven='Una vez listo el paso anterior, poner en el horno durante'
+
+const bringToTheOven=()=>{
+    let cooking;
+    cooking= oven+ ' ' + time+ ' '+ temp;
+    return cooking;
+}
+
+console.log(bringToTheOven());
