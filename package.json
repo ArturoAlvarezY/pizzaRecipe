@@ -11,5 +11,8 @@
     "url": "git@github.com-arturo:ArturoAlvarezY/pizzaRecipe.git"
   },
   "author": "Arturo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
